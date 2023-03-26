@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown vincednt:staff _hello ln -s alx-system_engineering-devops/ 0x01-shell_permissions/_hello _hello
+chown -h vincent:staff _hello
