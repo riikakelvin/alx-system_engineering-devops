@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#This script prints out 1- 100, with Fizzbuzz in certain nth
+k = 0
+while [ $k -ne 101]
+do
+	if [ $k % 15 -eq 0]
+	then
+		echo "FizzBuzz"
+	elif [ $k % 3 -eq 0]
+	then
+		echo "Fizz"
+	elif [ $k % 5 -eq 0]
+	then
+		echo "Buzz"
+	else
+		echo $k
+	fi
+	((k++))
+done
