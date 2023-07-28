@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#This script list format of the content of the current directory
+List= $(ls)
+for k in $List
+do
+	echo "$k" | cut -d'-' -f 2
+done
