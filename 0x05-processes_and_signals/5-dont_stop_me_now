@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
 # This script halts the inifinite loop using kil CMD
 
-stop_loop () do;
-{
-	echo "Terminated"
-	exit 0
-}
-
-trap stop_loop SIGUSR2
+trap "Terminated" 15
 
 while true; do
     echo "To infinity and beyond"
