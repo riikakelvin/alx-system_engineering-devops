@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # This script  displays its own PID
 own_pid = $$
-echo ps -p $own_pid -o pid
+echo ps -p $own_pid -o PID
 
