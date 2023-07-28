@@ -4,6 +4,7 @@
 PID = $(pgrep -f bash)
 for PID in $PID;
 	do
-		process = $(pgrep -l -P $pid)
-	       	echo "PID: $PID and the Process Name: $process"
+		process = $(pgrep -l -P $PID)
+	       	echo "PID: $PID  Process Name: $process"
 	done
+
