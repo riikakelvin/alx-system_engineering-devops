@@ -6,7 +6,7 @@ while [ $hours -ne 13]
 do
 	echo "Hour: $hours"
 	((hours++))
-	while [ $ minutes -ne 60]
+	while [ $minutes -ne 60]
 	do
 		echo "Minute: $minutes"
 		((minutes++))
