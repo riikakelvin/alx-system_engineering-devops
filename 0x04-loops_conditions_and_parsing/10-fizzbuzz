@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
-#This script prints out 1- 100, with Fizzbuzz in certain nth
-k = 0
+#This script prints out 1- 100, with Fizzbuzz in certain points of the list
+k = 1
 while [ $k -ne 101]
 do
-	if [ $k % 15 -eq 0]
+	if [ $((k % 15)) -eq 0]
 	then
 		echo "FizzBuzz"
-	elif [ $k % 3 -eq 0]
+	elif [ $((k % 3)) -eq 0]
 	then
 		echo "Fizz"
-	elif [ $k % 5 -eq 0]
+	elif [ $((k % 5)) -eq 0]
 	then
 		echo "Buzz"
 	else
