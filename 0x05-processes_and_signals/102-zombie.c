@@ -21,10 +21,10 @@ int infinite_while(void)
  */
 int main(void)
 {
-	int k;
+	int i;
 	pid_t z_pid;
 
-	for (k = 0; k < 5; k++)
+	for (i = 0; i < 5; i++)
 	{
 		z_pid = fork();
 		if (!z_pid)
@@ -35,4 +35,3 @@ int main(void)
 	infinite_while();
 	return (0);
 }
-
