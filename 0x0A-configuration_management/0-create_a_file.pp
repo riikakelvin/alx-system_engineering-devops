@@ -1,5 +1,5 @@
-file {'/tmp/school':
-        ensure  => 'file',
+file {'/tmp':
+        ensure  => file,
         path    => '/tmp/school',
         mode    => '0744',
         group   => 'www-data',
